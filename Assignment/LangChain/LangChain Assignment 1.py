@@ -3,7 +3,7 @@ ssl._create_default_https_context = ssl._create_unverified_context
 import os
 
 
-os.environ["OPENAI_API_KEY"] = "sk-proj-Iz5AMuBVBiVxTb7SXi4EylkSj39ijkwdTZGPG1LoMJt4mKRG5jUzhYFUT4apD1r9A8GaPITUZET3BlbkFJMBmPF17L4pUwUeBldaubJqeW5d9eBvCR5ecqiJ-zbUTZOEywZMOaQiX5PeymJiREmRXqauo"  # <-- PASTE KEY HERE
+os.environ["KEY"] = "sk-proj-o" 
 
 # MODERN LANGCHAIN IMPORTS
 from langchain_core.prompts import PromptTemplate, ChatPromptTemplate
